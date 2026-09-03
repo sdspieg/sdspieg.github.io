@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Murderboard &mdash; slide preview</title>
+<style>
+  :root{--bg:#09182f;--gold:#dbad50;--lb:#82a0bc;--wh:#e8edf3}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--wh);
+       font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding:1.6rem 2.5rem 4rem}
+  .wrap{max-width:1180px;margin:0 auto}
+  .tag{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--lb);margin-bottom:.5rem}
+  h1{color:var(--gold);font-size:2.4rem;margin:.1rem 0 .35rem;font-weight:700;letter-spacing:-.01em}
+  .sub{color:var(--lb);font-size:1.08rem;margin:0 0 1.1rem;max-width:60rem}
+  .viz{background:#09182f;border:1px solid #27446e;border-radius:8px;padding:.4rem;margin-bottom:1rem}
+  .viz svg{display:block;width:100%;height:auto}
+  /* the build-up: same contract as the deck - hidden until .shown, and NO transition
+     on the hidden state, so hiding is instant and cannot ghost */
+  [data-frag]{opacity:0;transform:translateY(.3em);transition:none}
+  [data-frag].shown{opacity:1;transform:none;transition:opacity .34s ease,transform .34s ease}
+  .bar{display:flex;gap:.6rem;align-items:center;margin-bottom:1.4rem;flex-wrap:wrap}
+  .bar button{cursor:pointer;border:1px solid #27446e;background:#12243f;color:var(--wh);
+              border-radius:6px;padding:.45rem .9rem;font:600 .85rem system-ui,sans-serif}
+  .bar button:hover{border-color:var(--gold);color:var(--gold)}
+  .bar .step{color:var(--lb);font-size:.85rem;margin-left:.3rem}
+  .bar .hint{color:#5f7territory}
+  .hint{color:#6d879f;font-size:.8rem}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem;margin-bottom:1.4rem}
+  .card{background:#142846;border:1px solid #27446e;border-left:3px solid var(--gold);
+        border-radius:6px;padding:.85rem 1rem}
+  .card .k{color:var(--gold);font-weight:600;font-size:.95rem;margin-bottom:.35rem}
+  .card .d{color:#cfe0ee;font-size:.88rem;line-height:1.5}
+  .note{background:#12243f;border:1px solid #27446e;border-radius:6px;padding:.9rem 1.1rem;
+        font-style:italic;color:var(--gold);font-weight:600;text-align:center}
+  .why{margin-top:2rem;padding-top:1.2rem;border-top:1px solid #1c3457;color:var(--lb);font-size:.9rem}
+  .why b{color:var(--wh)}
+  code{background:#0d2035;padding:.1rem .35rem;border-radius:3px;font-size:.85em;color:#cfe0ee}
+</style></head><body><div class="wrap">
+
+<div class="tag">Day 3 &middot; stress-testing what the model gave you</div>
+<h1>The murderboard</h1>
+<p class="sub">Two models argue over a frozen artifact until both sign off on the identical bytes
+&ndash; or until the disagreement is recorded as the finding.</p>
+
+<p class="sub" style="border-left:3px solid #dbad50;padding-left:.9rem;margin-bottom:1rem"><strong>Who is who.</strong> The <strong>reviewers</strong> are two frontier models, run as separate sessions so neither can see the other. The <strong>author is you</strong> &ndash; the human who wrote the thing under review. You are not a third reviewer: you <em>adjudicate</em>. You rule on every contested point, you can reopen anything, and <strong>you are the only one who edits the artifact.</strong></p>
+<div class="bar" data-for="d1">
+  <button onclick="step('d1',1)">Next &rarr;</button>
+  <button onclick="step('d1',-1)">&larr; Back</button>
+  <button onclick="play('d1')">&#9654; Play</button>
+  <button onclick="setAll('d1',true)">Show all</button>
+  <button onclick="setAll('d1',false)">Reset</button>
+  <span class="step" id="step-d1">0 / 0</span>
+  <span class="hint">&nbsp;&middot;&nbsp; arrow keys work too</span>
+</div>
+
+<div class="viz" id="d1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 364" role="img"
+     aria-label="The murderboard cycle, revealed in nine steps: a frozen artifact, two independent models, blind first rounds, the author ruling, the reviewers reflecting, the loop between them, the machine checker, and the two valid endings - dual GO or recorded dissent.">
+<style>.hd{font:700 11px system-ui,sans-serif;letter-spacing:.09em}.ph{font:700 13px system-ui,sans-serif;fill:#e8edf3}.mc{font:400 10.6px system-ui,sans-serif;fill:#9fb3c8}.mi{font:italic 400 10.6px system-ui,sans-serif;fill:#8fa6bd}.tag{font:600 9.6px system-ui,sans-serif;letter-spacing:.05em}.ft{font:italic 600 12.5px system-ui,sans-serif;fill:#dbad50}</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7d93ad"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dbad50"/></marker></defs>
+<rect width="980" height="364" fill="#09182f"/>
+<g data-frag="1">
+<rect x="20" y="112" width="104" height="94" rx="7" fill="#142846" stroke="#dbad50" stroke-width="1.5"/>
+<text x="72" y="140" class="ph" text-anchor="middle">the artifact</text>
+<text x="72" y="160" class="mc" text-anchor="middle">frozen, by hash</text>
+<text x="72" y="176" class="mc" text-anchor="middle">immutable</text>
+<text x="72" y="196" class="tag" text-anchor="middle" fill="#dbad50">v1 &#8594; v2 &#8594; v3</text>
+</g>
+<g data-frag="2">
+<text x="248" y="30" class="hd" fill="#7d93ad" text-anchor="middle">TWO INDEPENDENT MODELS</text>
+<rect x="160" y="40" width="84" height="34" rx="6" fill="#0d2035" stroke="#27446e"/>
+<text x="202" y="62" class="tag" text-anchor="middle" fill="#e8edf3">reviewer A</text>
+<line x1="202" y1="76" x2="202" y2="90" stroke="#27446e" stroke-width="1.4"/>
+<rect x="256" y="40" width="84" height="34" rx="6" fill="#0d2035" stroke="#27446e"/>
+<text x="298" y="62" class="tag" text-anchor="middle" fill="#e8edf3">reviewer B</text>
+<line x1="298" y1="76" x2="298" y2="90" stroke="#27446e" stroke-width="1.4"/>
+</g>
+<g data-frag="3">
+<line x1="128" y1="152" x2="146" y2="152" stroke="#7d93ad" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="152" y="92" width="182" height="120" rx="7" fill="#142846" stroke="#27446e"/>
+<text x="166" y="116" class="ph">1 &#183; blind</text>
+<text x="166" y="138" class="mc">Neither reviewer reads the</text>
+<text x="166" y="152" class="mc">other first.</text>
+<text x="166" y="174" class="mi">Two independent verdicts.</text>
+</g>
+<g data-frag="4">
+<line x1="336" y1="152" x2="354" y2="152" stroke="#7d93ad" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="348" y="92" width="182" height="120" rx="7" fill="#142846" stroke="#27446e"/>
+<text x="362" y="116" class="ph">2 &#183; YOU rule</text>
+<text x="362" y="138" class="mc">The human who wrote it</text>
+<text x="362" y="152" class="mc">adjudicates every item.</text>
+<text x="362" y="174" class="mi">Two reviewers can converge</text>
+<text x="362" y="188" class="mi">on a mistake.</text>
+</g>
+<g data-frag="5">
+<line x1="532" y1="152" x2="550" y2="152" stroke="#7d93ad" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="544" y="92" width="182" height="120" rx="7" fill="#142846" stroke="#27446e"/>
+<text x="558" y="116" class="ph">3 &#183; reflect</text>
+<text x="558" y="138" class="mc">accept, modify, refuse or</text>
+<text x="558" y="152" class="mc">hold.</text>
+<text x="558" y="174" class="mi">A held position must be re-</text>
+<text x="558" y="188" class="mi">argued.</text>
+</g>
+<g data-frag="7">
+<line x1="728" y1="152" x2="746" y2="152" stroke="#7d93ad" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="740" y="92" width="182" height="120" rx="7" fill="#142846" stroke="#27446e"/>
+<text x="754" y="116" class="ph">4 &#183; the checker</text>
+<text x="754" y="138" class="mc">Both GO, on the SAME bytes.</text>
+<text x="754" y="160" class="mi">Conditional GO is downgraded</text>
+<text x="754" y="174" class="mi">to NO_GO.</text>
+</g>
+<g data-frag="6">
+<path d="M634,212 C634,250 440,250 440,212" fill="none" stroke="#dbad50" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ag)"/>
+<text x="537" y="266" class="tag" text-anchor="middle" fill="#dbad50">LOOPS UNTIL IT NARROWS</text>
+</g>
+<g data-frag="8">
+<text x="838" y="30" class="hd" fill="#7d93ad" text-anchor="middle">BOTH ARE VALID ENDINGS</text>
+<rect x="750" y="40" width="84" height="34" rx="6" fill="#0d2035" stroke="#5fae86"/>
+<text x="792" y="62" class="tag" text-anchor="middle" fill="#5fae86">DUAL GO</text>
+<line x1="792" y1="76" x2="792" y2="90" stroke="#27446e" stroke-width="1.4"/>
+<rect x="846" y="40" width="84" height="34" rx="6" fill="#0d2035" stroke="#c9614f"/>
+<text x="888" y="62" class="tag" text-anchor="middle" fill="#c9614f">DISSENT</text>
+<line x1="888" y1="76" x2="888" y2="90" stroke="#27446e" stroke-width="1.4"/>
+</g>
+<g data-frag="9">
+<rect x="20" y="304" width="940" height="34" rx="6" fill="#12243f" stroke="#27446e"/>
+<text x="490" y="326" class="ft" text-anchor="middle">A board that must end in agreement will produce agreement &#8212; and it will mean nothing.</text>
+</g>
+</svg></div>
+
+<h1 style="margin-top:2.4rem">The taxonomy prompt, murderboarded</h1><p class="sub">One prompt, two models generating blind, and an argument between them &ndash; because the value of a multi-dimensional taxonomy is that it maps your priors before you commit to one.</p>
+<div class="bar" data-for="d2"><button onclick="step('d2',1)">Next &rarr;</button><button onclick="step('d2',-1)">&larr; Back</button><button onclick="play('d2')">&#9654; Play</button><button onclick="setAll('d2',true)">Show all</button><button onclick="setAll('d2',false)">Reset</button><span class="step" id="step-d2">0 / 0</span></div>
+<div class="viz" id="d2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 372" role="img"
+     aria-label="The MDTDF pipeline: one prompt with the domain left blank goes to two frontier models which generate taxonomies blind and independently; the two differ; a murderboard makes them argue until they converge; the output is a multi-dimensional taxonomy whose dimensions are orthogonal vantage points rather than a decomposition.">
+<style>.hd{font:700 10.5px system-ui,sans-serif;letter-spacing:.1em}.ph{font:700 12.5px system-ui,sans-serif;fill:#e8edf3}.mc{font:400 10.3px system-ui,sans-serif;fill:#9fb3c8}.dim{font:500 10.4px system-ui,sans-serif;fill:#cfe0ee}.tag{font:600 9.4px system-ui,sans-serif;letter-spacing:.05em}.ft{font:italic 600 12.5px system-ui,sans-serif;fill:#dbad50}.mono{font:500 10px ui-monospace,monospace;fill:#dbad50}</style>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7d93ad"/></marker><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dbad50"/></marker></defs>
+<rect width="980" height="372" fill="#09182f"/>
+<g data-frag="1">
+<text x="20" y="26" class="hd" fill="#dbad50">ONE PROMPT</text>
+<rect x="20" y="38" width="128" height="150" rx="7" fill="#142846" stroke="#dbad50" stroke-width="1.5"/>
+<text x="34" y="62" class="ph">MDTDF</text>
+<text x="34" y="80" class="mc">Multi-Dimensional</text>
+<text x="34" y="93" class="mc">Taxonomy</text>
+<text x="34" y="106" class="mc">Development</text>
+<text x="34" y="119" class="mc">Framework</text>
+<rect x="34" y="134" width="100" height="20" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="84" y="148" class="mono" text-anchor="middle">{{DOMAIN}}</text>
+<text x="34" y="172" class="mc">your one sentence</text>
+</g>
+<g data-frag="2">
+<line x1="152" y1="80" x2="176" y2="80" stroke="#7d93ad" stroke-width="2" marker-end="url(#a1)"/>
+<line x1="152" y1="150" x2="176" y2="150" stroke="#7d93ad" stroke-width="2" marker-end="url(#a1)"/>
+<text x="290" y="26" class="hd" fill="#7d93ad">GENERATED BLIND, INDEPENDENTLY</text>
+<path d="M186,124 L400,124" stroke="#27446e" stroke-width="1.4" stroke-dasharray="4 4"/>
+<text x="293" y="121" class="tag" fill="#7d93ad" text-anchor="middle">neither sees the other</text>
+</g>
+<g data-frag="3">
+<rect x="186" y="44" width="214" height="63" rx="6" fill="#142846" stroke="#6fa8d6"/>
+<text x="198" y="59" class="tag" fill="#6fa8d6">Fable &#183; 3 dimensions</text>
+<text x="198" y="75" class="dim">&#183; domains: physical / not</text>
+<text x="198" y="90" class="dim">&#183; levels of war</text>
+<text x="198" y="105" class="dim">&#183; doctrinal traditions</text>
+</g>
+<g data-frag="4">
+<rect x="186" y="140" width="214" height="78" rx="6" fill="#142846" stroke="#d69a6f"/>
+<text x="198" y="155" class="tag" fill="#d69a6f">Sol &#183; 4 dimensions</text>
+<text x="198" y="181" class="dim">&#183; levels of war</text>
+<text x="198" y="196" class="dim">&#183; historical moments</text>
+<text x="198" y="211" class="dim">&#183; technology regime</text>
+<text x="198" y="226" class="dim">&#183; command style</text>
+</g>
+<g data-frag="5">
+<line x1="404" y1="80" x2="424" y2="104" stroke="#dbad50" stroke-width="2" marker-end="url(#a2)"/>
+<line x1="404" y1="172" x2="424" y2="148" stroke="#dbad50" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="430" y="86" width="132" height="86" rx="7" fill="#142846" stroke="#dbad50" stroke-width="1.5"/>
+<text x="496" y="108" class="ph" text-anchor="middle">murderboard</text>
+<text x="496" y="126" class="mc" text-anchor="middle">now they see</text>
+<text x="496" y="139" class="mc" text-anchor="middle">each other</text>
+<text x="496" y="160" class="tag" text-anchor="middle" fill="#dbad50">2 &#8211; 13 ROUNDS</text>
+<text x="496" y="192" class="mc" text-anchor="middle">they argue, they do not flatter</text>
+</g>
+<g data-frag="6">
+<line x1="566" y1="129" x2="590" y2="129" stroke="#dbad50" stroke-width="2" marker-end="url(#a2)"/>
+<text x="782" y="26" class="hd" fill="#5fae86">CONVERGED &#183; ORTHOGONAL</text>
+<rect x="600" y="38" width="360" height="176" rx="7" fill="#142846" stroke="#5fae86"/>
+<line x1="690" y1="126" x2="690" y2="68" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="690" cy="68" r="3.4" fill="#5fae86"/>
+<line x1="690" y1="126" x2="740" y2="97" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="740" cy="97" r="3.4" fill="#5fae86"/>
+<line x1="690" y1="126" x2="740" y2="155" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="740" cy="155" r="3.4" fill="#5fae86"/>
+<line x1="690" y1="126" x2="690" y2="184" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="690" cy="184" r="3.4" fill="#5fae86"/>
+<line x1="690" y1="126" x2="640" y2="155" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="640" cy="155" r="3.4" fill="#5fae86"/>
+<line x1="690" y1="126" x2="640" y2="97" stroke="#5fae86" stroke-width="1.6"/>
+<circle cx="640" cy="97" r="3.4" fill="#5fae86"/>
+<circle cx="690" cy="126" r="5" fill="#dbad50"/>
+<text x="690" y="206" class="tag" fill="#5fae86" text-anchor="middle">independent axes</text>
+<text x="776" y="62" class="dim">&#183; domains</text>
+<text x="776" y="86" class="dim">&#183; levels of war</text>
+<text x="776" y="110" class="dim">&#183; doctrine</text>
+<text x="776" y="134" class="dim">&#183; period</text>
+<text x="776" y="158" class="dim">&#183; technology</text>
+<text x="776" y="182" class="dim">&#183; actors</text>
+<text x="776" y="206" class="mc">each varies without the others</text>
+</g>
+<g data-frag="7">
+<rect x="20" y="232" width="940" height="52" rx="6" fill="#12243f" stroke="#27446e"/>
+<text x="490" y="252" class="ft" text-anchor="middle">Not &#8220;how do I break this up?&#8221; but &#8220;from which vantage points can I look at it?&#8221;</text>
+<text x="490" y="272" class="mc" text-anchor="middle">You are mapping your own priors before you commit to one &#8212; which is why you find angles you had never considered</text>
+</g>
+<g data-frag="8">
+<rect x="20" y="296" width="940" height="52" rx="6" fill="#0d2035" stroke="#27446e"/>
+<text x="38" y="316" class="mc">Cost of a full taxonomy: <tspan fill="#dbad50" font-weight="600">a few cents</tspan>. A run that never converges is a result too &#8212; one went 13 rounds without agreement.</text>
+<text x="38" y="336" class="mc">And we are not the &#8216;omics: they have tens of thousands of ontologies in a <tspan fill="#dbad50" font-style="italic">defined common format</tspan>, so theirs compose. Ours do not, yet.</text>
+</g>
+</svg></div>
+
+<h1 style="margin-top:2.4rem">The MDTDF prompt, componentized</h1><p class="sub">Every element of the actual framework document &ndash; the four phases, the four output levels, the five validation criteria, the independence test, and the TSV contract it must produce.</p><div class="bar" data-for="d3"><button onclick="step('d3',1)">Next &rarr;</button><button onclick="step('d3',-1)">&larr; Back</button><button onclick="play('d3')">&#9654; Play</button><button onclick="setAll('d3',true)">Show all</button><button onclick="setAll('d3',false)">Reset</button><span class="step" id="step-d3">0 / 0</span><span class="hint">&nbsp;&middot;&nbsp; source: StratBase/MDTDF.md</span></div>
+<div class="viz" id="d3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 392" role="img"
+     aria-label="The MDTDF prompt decomposed: four development phases, the four-level output structure from HLTP down to taxon, the five validation criteria with the independence test, the TSV output contract, and the murderboard wrapper that runs the whole prompt twice blind.">
+<style>.hd{font:700 10.5px system-ui,sans-serif;letter-spacing:.1em}.ph{font:700 12px system-ui,sans-serif;fill:#e8edf3}.lv{font:700 12.5px system-ui,sans-serif}.mc{font:400 10px system-ui,sans-serif;fill:#9fb3c8}.st{font:400 9.6px system-ui,sans-serif;fill:#8fa6bd}.tag{font:600 9.2px system-ui,sans-serif;letter-spacing:.05em}.mono{font:500 9.4px ui-monospace,monospace;fill:#cfe0ee}.ft{font:italic 600 12px system-ui,sans-serif;fill:#dbad50}</style>
+<defs><marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7d93ad"/></marker><marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dbad50"/></marker></defs>
+<rect width="980" height="392" fill="#09182f"/>
+<g data-frag="1"><text x="20" y="24" class="hd" fill="#dbad50">THE METHOD &#183; FOUR PHASES, EACH WITH FIVE STEPS</text></g>
+<g data-frag="1">
+<rect x="20" y="32" width="226" height="58" rx="6" fill="#142846" stroke="#27446e"/>
+<text x="32" y="50" class="ph">1 &#183; identify</text>
+<text x="32" y="65" class="st">domain definition &#183; brainstorm &#183;</text>
+<text x="32" y="77" class="st">literature &#183; experts &#183; first principles</text>
+</g>
+<g data-frag="2">
+<rect x="258" y="32" width="226" height="58" rx="6" fill="#142846" stroke="#27446e"/>
+<text x="270" y="50" class="ph">2 &#183; refine</text>
+<text x="270" y="65" class="st">independence testing &#183; classify examples</text>
+<text x="270" y="77" class="st">&#183; gaps &#183; merge overlaps</text>
+<line x1="230" y1="61" x2="252" y2="61" stroke="#7d93ad" stroke-width="1.8" marker-end="url(#m1)"/>
+</g>
+<g data-frag="3">
+<rect x="496" y="32" width="226" height="58" rx="6" fill="#142846" stroke="#27446e"/>
+<text x="508" y="50" class="ph">3 &#183; second level</text>
+<text x="508" y="65" class="st">divisions &#183; mutual exclusivity &#183;</text>
+<text x="508" y="77" class="st">completeness &#183; boundary tests</text>
+<line x1="468" y1="61" x2="490" y2="61" stroke="#7d93ad" stroke-width="1.8" marker-end="url(#m1)"/>
+</g>
+<g data-frag="4">
+<rect x="734" y="32" width="226" height="58" rx="6" fill="#142846" stroke="#27446e"/>
+<text x="746" y="50" class="ph">4 &#183; validate</text>
+<text x="746" y="65" class="st">real cases &#183; edge cases &#183; expert review</text>
+<text x="746" y="77" class="st">&#183; use it &#183; iterate</text>
+<line x1="706" y1="61" x2="728" y2="61" stroke="#7d93ad" stroke-width="1.8" marker-end="url(#m1)"/>
+</g>
+<g data-frag="5">
+<text x="20" y="118" class="hd" fill="#5fae86">WHAT IT MUST PRODUCE &#183; FOUR LEVELS</text>
+<rect x="20" y="132" width="300" height="22" rx="4" fill="#142846" stroke="#5fae86"/>
+<text x="30" y="147" class="lv" fill="#5fae86">HLTP</text>
+<text x="124" y="147" class="mc">an independent LENS on the domain</text>
+<rect x="36" y="158" width="284" height="22" rx="4" fill="#142846" stroke="#6fa8d6"/>
+<text x="46" y="173" class="lv" fill="#6fa8d6">2nd Level TE</text>
+<text x="140" y="173" class="mc">major division inside that lens</text>
+<rect x="52" y="184" width="268" height="22" rx="4" fill="#142846" stroke="#6fa8d6"/>
+<text x="62" y="199" class="lv" fill="#6fa8d6">3rd Level TE</text>
+<text x="156" y="199" class="mc">specific operational area</text>
+<rect x="68" y="210" width="252" height="22" rx="4" fill="#142846" stroke="#d69a6f"/>
+<text x="78" y="225" class="lv" fill="#d69a6f">Taxon</text>
+<text x="172" y="225" class="mc">a concrete instance &#183; 8-15 per 3rd level</text>
+</g>
+<g data-frag="6">
+<text x="352" y="118" class="hd" fill="#7d93ad">EVERY HLTP MUST PASS FIVE</text>
+<rect x="352" y="130" width="150" height="18" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="362" y="143" class="mc">independence</text>
+<rect x="352" y="152" width="150" height="18" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="362" y="165" class="mc">universality</text>
+<rect x="352" y="174" width="150" height="18" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="362" y="187" class="mc">fundamentality</text>
+<rect x="352" y="196" width="150" height="18" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="362" y="209" class="mc">distinctiveness</text>
+<rect x="352" y="218" width="150" height="18" rx="4" fill="#0d2035" stroke="#27446e"/>
+<text x="362" y="231" class="mc">utility</text>
+</g>
+<g data-frag="7">
+<rect x="520" y="126" width="440" height="94" rx="7" fill="#142846" stroke="#dbad50" stroke-width="1.5"/>
+<text x="534" y="146" class="ph" fill="#dbad50">The one test that matters</text>
+<text x="534" y="164" class="mc">Position on one dimension changes &#8212; the others stay put.</text>
+<text x="534" y="177" class="mc">If two of your dimensions always move together, you have</text>
+<text x="534" y="190" class="mc">ONE dimension wearing two hats. Merge them.</text>
+<text x="534" y="203" class="mc">A model will hand you a beautiful taxonomy whose dimensions</text>
+<text x="534" y="216" class="mc">are not independent, and it will not warn you.</text>
+</g>
+<g data-frag="8">
+<text x="20" y="248" class="hd" fill="#7d93ad">THE OUTPUT CONTRACT</text>
+<rect x="20" y="256" width="482" height="60" rx="6" fill="#0d2035" stroke="#27446e"/>
+<text x="32" y="274" class="mono">HLTP &#8594; 2nd Level TE &#8594; 3rd Level TE &#8594; Taxon</text>
+<text x="32" y="290" class="mono">Functional Domain | Law Enforcement | Apprehension | Warrant execution</text>
+<text x="32" y="308" class="st">TSV, four columns, no quotes, no extra metadata, grouped by level &#183; one row = one full path</text>
+</g>
+<g data-frag="9">
+<text x="520" y="248" class="hd" fill="#d69a6f">ONE ACTIVITY, SEVEN LENSES</text>
+<rect x="520" y="256" width="440" height="60" rx="6" fill="#142846" stroke="#d69a6f"/>
+<text x="534" y="274" class="mc">A community policing patrol is simultaneously:</text>
+<text x="534" y="290" class="st">pre-incident &#183; local &#183; soft power &#183; community engagement</text>
+<text x="534" y="304" class="st">throughput &#183; tacit knowledge &#183; tactical</text>
+</g>
+<g data-frag="10">
+<rect x="20" y="330" width="940" height="46" rx="6" fill="#12243f" stroke="#dbad50"/>
+<text x="34" y="349" class="ft">Then run the whole prompt TWICE, blind &#8212; two models, neither seeing the other &#8212; and murderboard the results.</text>
+<text x="34" y="367" class="mc">Where the two taxonomies disagree is where your domain is genuinely contestable. That disagreement is a finding, not a defect.</text>
+</g>
+</svg></div>
+
+<div class="grid">
+  <div class="card"><div class="k">Reviewers never edit</div>
+    <div class="d">A reviewer produces <b>findings</b>, never a fix &ndash; not even a demonstrably
+    correct number. The author edits. A reviewer who revises the artifact has destroyed the
+    independence that made the review worth having.</div></div>
+  <div class="card"><div class="k">A GO is obtained, never inferred</div>
+    <div class="d">Applying the other reviewer&rsquo;s wording does not make their GO. Being obviously
+    right does not make it. <b>Every version needs an explicit verdict from each reviewer</b>, even
+    when the ruling looks foregone.</div></div>
+  <div class="card"><div class="k">Refusal is a first-class outcome</div>
+    <div class="d">A held position must be <b>re-argued against the new input</b> and must name what
+    would change it. A refusal no evidence could overturn is a preference, not a finding.</div></div>
+</div>
+
+<div class="note">A board that must end in agreement will produce agreement &ndash; and it will mean nothing.</div>
+
+<div class="why">
+  <p><b>Why it belongs in this workshop.</b> On Day&nbsp;3 a model will hand you a taxonomy that looks
+  authoritative. The independence test catches one failure; the murderboard catches the rest &ndash;
+  unsupported inference, missing denominators, circular nulls, unfalsifiable summary claims,
+  self-validating evidence. On the case this method was written from, <b>the board rewrote the
+  paper&rsquo;s thesis sentence</b>. That is the point: it is not a quality gate at the end, it changes
+  what the artifact is, early.</p>
+  <p><b>The machine-checked close.</b> Generations are immutable and named by hash, so a verdict always
+  describes bytes that still exist. <code>CONDITIONAL_GO</code> is not a state &ndash; a GO carrying an
+  unmet condition is downgraded to <code>NO_GO</code>, because two different kinds of condition once
+  wore the same label and were counted as agreement.</p>
+  <p><b>The honest limit.</b> The drafter cannot be one of the two reviewers &ndash; a GO from whoever
+  wrote it is a self-assessment, and no checker can tell the difference. Either bring in a third, or
+  say plainly that dual GO is not available. <b>Naming the arrangement is the requirement; the weaker
+  arrangement is acceptable, the unnamed one is not.</b></p>
+</div>
+
+</div>
+<script>
+  /* Each diagram is independent: its own fragment list, its own counter, its own timer.
+     Sharing one counter across two SVGs interleaved them and left the second half-revealed. */
+  var D = {};
+  ['d1','d2','d3'].forEach(function(id){
+    var root = document.getElementById(id);
+    if (!root) return;
+    D[id] = {
+      root: root,
+      frags: [].slice.call(root.querySelectorAll('[data-frag]'))
+                .sort(function(a,b){ return +a.dataset.frag - +b.dataset.frag; }),
+      at: 0, timer: null
+    };
+  });
+  function paint(id){
+    var d = D[id]; if (!d) return;
+    d.frags.forEach(function(f,i){ f.classList.toggle('shown', i < d.at); });
+    var el = document.getElementById('step-' + id);
+    if (el) el.textContent = d.at + ' / ' + d.frags.length;
+  }
+  function step(id, n){ var d=D[id]; if(!d) return; clearInterval(d.timer);
+    d.at = Math.max(0, Math.min(d.frags.length, d.at + n)); paint(id); }
+  function setAll(id, on){ var d=D[id]; if(!d) return; clearInterval(d.timer);
+    d.at = on ? d.frags.length : 0; paint(id); }
+  function play(id){
+    var d=D[id]; if(!d) return;
+    clearInterval(d.timer); d.at = 0; paint(id);
+    d.timer = setInterval(function(){
+      if (d.at >= d.frags.length) { clearInterval(d.timer); return; }
+      d.at++; paint(id);
+    }, 850);
+  }
+  /* arrow keys drive whichever diagram is nearest the middle of the viewport */
+  function nearest(){
+    var best=null, bd=1e9, mid=window.innerHeight/2;
+    Object.keys(D).forEach(function(id){
+      var r = D[id].root.getBoundingClientRect();
+      var dist = Math.abs((r.top + r.bottom)/2 - mid);
+      if (dist < bd) { bd = dist; best = id; }
+    });
+    return best;
+  }
+  document.addEventListener('keydown', function(e){
+    var id = nearest(); if (!id) return;
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); step(id, 1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); step(id, -1); }
+    if (e.key === 'b' || e.key === 'B') setAll(id, true);
+  });
+  Object.keys(D).forEach(paint);
+  setTimeout(function(){ play('d1'); }, 400);
+  setTimeout(function(){ play('d2'); }, 400);
+  setTimeout(function(){ play('d3'); }, 400);
+</script>
+</body></html>
