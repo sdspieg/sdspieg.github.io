@@ -1,0 +1,20 @@
+window.REGIME_DATA=[
+["2026-06-05",1.4,2.6,2.6,1.4,3.0,3.3,2.4,"SPIEF exposed competing elite visions; slowdown and internet restrictions became politically salient."],
+["2026-06-12",1.4,2.8,2.7,1.4,3.2,3.4,2.6,"Business criticism of rates grew louder; internet disruption and Crimea fuel problems became more visible."],
+["2026-06-19",1.4,3.0,2.9,1.4,3.3,3.5,2.8,"Nabiullina succession chatter and widening war fatigue; Moscow refinery strikes weakened insulation."],
+["2026-06-26",1.5,3.1,3.0,1.5,3.5,3.6,3.1,"Fuel disruption, budget strain, and institutionalized FSB-civilian conflict over internet controls."],
+["2026-07-03",1.5,3.1,3.1,1.5,3.7,3.7,3.3,"Fuel shortages became a domestic political vulnerability; repression increasingly functioned as routine governance."],
+["2026-07-10",1.5,3.2,3.3,1.5,3.9,3.7,3.5,"Fuel imports and export bans, falling approval, potential banking strain, and establishment criticism."],
+["2026-07-17",1.6,3.4,3.4,1.6,4.0,3.8,3.6,"Business climate deteriorated sharply; billionaire asset hedging suggested exit rather than voice."],
+["2026-07-24",1.8,3.6,3.4,1.7,4.0,3.9,3.7,"Pressure widened around the Rotenberg network; fuel triage increasingly privileged center over periphery."],
+["2026-07-31",1.8,3.7,3.5,1.7,4.1,4.0,3.8,"Technocratic room narrowed; fuel emergency became semi-permanent; Telegram controls antagonized loyalists."],
+["2026-08-07",1.9,3.9,3.5,1.7,4.2,4.0,4.0,"Russia imported refined fuel while exporting crude; strategic elite divergence became more salient."],
+["2026-08-14",2.0,4.0,3.6,1.7,4.2,4.3,4.1,"FSB-Kiriyenko tension became more explicit; legal anti-war electoral outlets narrowed."],
+["2026-08-21",2.0,4.0,3.8,1.8,4.3,4.3,4.2,"Klepach firing and Levada anxiety data suggested stronger technocratic and societal stress."],
+["2026-08-28",2.0,4.0,3.8,2.0,4.4,4.4,4.3,"Asset-management decree increased elite insecurity; logistics and agricultural stresses broadened."],
+["2026-09-04",2.0,4.1,3.9,2.0,4.4,4.5,4.3,"Titov warned against permanent war-economy mobilization; fiscal squeeze and conditional consent became clearer."],
+["2026-09-11",2.0,4.1,4.1,2.0,4.5,4.5,4.4,"Public anxiety, mobilization fears, fuel disruption, election suppression, capital hedging and banking stress converged."],
+["2026-09-18",2.0,4.1,4.1,2.1,4.6,4.5,4.5,"Refinery damage intensified; election became a diagnostic of administrative mobilization and limited opposition coordination."],
+["2026-09-25",2.0,4.1,4.2,2.2,4.7,4.6,4.6,"Post-election fraud allegations, small anti-fraud mobilization, worsening fiscal pressure and Moscow refinery shutdown."],
+["2026-10-02",2.0,4.2,4.2,2.3,4.8,4.7,4.7,"2027 budget shifts further toward war; private firms shoulder homeland defense; small post-election protest appeared."]
+];
