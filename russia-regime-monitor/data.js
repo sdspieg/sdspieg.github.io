@@ -361,5 +361,23 @@ window.REGIME_DATA=[
    "Novaya Gazeta Europe",
    "RFE/RL"
   ]
+ ],
+ [
+  "2026-11-06",
+  2,
+  4.2,
+  4.2,
+  2.4,
+  4.8,
+  5,
+  5,
+  "Further in-absentia punishments for independent-media and opposition figures, internet-censorship fines, and renewed refinery attacks; Sovcomflot stake sale planned and JTI assets placed under temporary management. October oil/gas receipts rose about 9% y/y and Q3 GDP grew 1%; no documented elite rupture or broad realized protest. Two ceiling indicators remain at 5.0.",
+  [
+   "Reuters",
+   "Kommersant",
+   "OVD-Info",
+   "Mediazona",
+   "Meduza"
+  ]
  ]
 ];
