@@ -406,5 +406,202 @@ window.REGIME_EVIDENCE={
         "context_only": true
       }
     ]
+  },
+  "2026-11-13": {
+    "period": "2026-11-07/2026-11-13",
+    "provenance": "article_level_verified",
+    "narrative": "The 7–13 November 2026 reporting period shows intensification of structural-economic and operational pressures without documented conversion into organized political rupture. Reuters reported gasoline/diesel rationing in at least six regions after renewed refinery attacks; two unnamed industry sources estimated that refineries representing roughly 30% of Russia's nameplate processing capacity had been affected, with actual crude processing possibly down by up to 200,000 tonnes per day. These are attributed estimates rather than independently audited output. Finance Ministry preliminary data put the January–October federal deficit at ₽5.234 trillion (2.3% GDP), versus ₽3.942 trillion (1.8% GDP) a year earlier. Sberbank CEO German Gref warned corporate credit quality deteriorated sharply in H2 and could weaken further. Grain exporters faced continuing Black Sea disruption and storage bottlenecks. The convergence of new observations warrants a conservative +0.1 to structural-economic stress, from 4.8 to 4.9.\n\nCounterevidence prevents exaggeration. The same Finance Ministry release reported non-oil-and-gas revenue up 19.1% and total revenue up 11% year-on-year, and only an implied ~₽48bn October deficit. Sberbank projected at least 21% return on equity and continued half-profit dividends, positive growth in 2027, and said its October data-centre attack caused no serious disruptions. Agricultural companies have rapidly adopted alternative silo-bag storage, and the temporary domestic administrator of seized Japan Tobacco assets says it intends to maintain output. These are indicators of adaptive capacity, not signs of generalized administrative paralysis.\n\nCoercive pressure on opposition and civil society continues at the existing maximum score of 5.0. OVD-Info documented the 12-year treason sentence against lawyer Maria Boncler and the trial of rights defender Aleksei Sokolov; Mediazona reported appellate confirmation of Lev Shlosberg's lengthy sentence, a new in-absentia case against journalist Nikita Parmenov, and a Supreme Court ban on the Ukrainian Yellow Ribbon movement. Prosecutors' claims of treason or foreign-intelligence ties are not treated as independently verified. Rassvet paused registration of regional chapters after its November 6 foreign-agent designation; ~100 members meeting via Zoom is not a mass street mobilization. A Moscow raid against young people and a military serviceman's car-bomb killing have no demonstrated anti-regime protest or elite-rupture nexus.\n\nNo fresh representative nationwide discontent measurement, organized elite defection, or sustained protest coalition was substantiated. Therefore elite rupture, elite divergence, public dissatisfaction and realized mobilized dissent stay unchanged. The weighted Rupture Potential Index increases only mechanically because its formula includes structural stress; that increase is not a measured rise in revolt probability. State-capacity erosion remains at the 5.0 ceiling, not a claim of total collapse.",
+    "coding": {
+      "elite_rupture": "2.0 unchanged. No verified senior-official or silovik defection, collective counter-leadership or intra-elite political revolt. A St Petersburg car-bomb assassination does not establish elite rupture; reported perpetrator and motives unverified.",
+      "elite_divergence": "4.2 unchanged. Gref openly warns of weakening corporate credit quality and the state expands JTI asset control, but neither is proof of an organized internal ruling-elite challenge. Administrative adaptation and political contestation must be separated.",
+      "public_dissatisfaction": "4.2 unchanged. No new nationally comparable independent poll published within this period; previous Levada October approval is context only. Fuel rationing and coercion cannot be mechanically translated into measured political dissatisfaction.",
+      "mobilized_dissent": "2.4 unchanged. Rassvet's registration pause and ~100-person Zoom meeting are organizational discussion, not a realized anti-regime mass action; police raid of young people had no verified opposition purpose.",
+      "structural_stress": "4.8 to 4.9 (+0.1). Independent convergence: confirmed rationing in six-plus regions, two-source refinery outage estimate (30% nameplate capacity affected and up to 200kt/day reduced processing), Finance Ministry 10-month deficit ₽5.234tn/2.3% GDP vs ₽3.942tn/1.8% a year earlier, Sberbank CEO's warning on corporate credit quality, and grain export/storage bottlenecks. Counterevidence: +19.1% non-oil revenue, estimated small monthly October deficit, Sberbank ≥21% expected return on equity, continued dividends and adaptive grain storage. Does not justify a 5.0 rating.",
+      "coercive_securitization": "5.0 CEILING unchanged. Boncler and Shlosberg sentences, Sokolov treason prosecution, Yellow Ribbon designation and in-absentia journalist case reinforce existing coercive architecture. Court outcomes are observed; official allegations are not independently established. Scale cannot exceed 5.0.",
+      "state_capacity_erosion": "5.0 CEILING unchanged. Refinery disruptions and rationing reinforce operational stress, but bank continuity, sizeable non-oil receipts and adaptive storage contradict comprehensive state failure. 5.0 is an ordinal ceiling, not zero state capacity."
+    },
+    "sources": [
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-09",
+        "title": "Fuel shortages return to Russian regions after Ukrainian refinery attacks",
+        "url": "https://www.reuters.com/business/energy/fuel-shortages-return-russian-regions-after-ukrainian-refinery-attacks-2026-11-09/",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Fuel rationing in at least six regions, corroborated by official announcements. Karelia announced 30-litre gasoline/50-litre diesel purchase limits. Local restrictions do not establish nationwide collapse."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-10",
+        "title": "Recent Ukrainian attacks have reduced Russia's oil processing capacity by 30%, sources say",
+        "url": "https://www.reuters.com/business/energy/recent-ukrainian-attacks-have-reduced-russias-oil-processing-capacity-by-30-2026-11-10/",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Two unnamed industry sources estimate ~30% of nameplate refining capacity affected and actual throughput down by up to 200,000 tonnes/day. Estimates, NOT independent production audit; nine major refineries disrupted."
+      },
+      {
+        "publisher": "Interfax",
+        "date": "2026-11-10",
+        "title": "Russian federal budget deficit 5.234 trillion rubles or 2.3% of GDP in 10M - MinFin",
+        "url": "https://www.interfax.com/newsroom/top-stories/119862/",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "Finance Ministry preliminary January–October deficit ₽5.234tn/2.3% GDP vs ₽3.942tn/1.8% GDP a year earlier, oil/gas receipts −14.1%. COUNTEREVIDENCE: non-oil revenue +19.1%, total revenue +11%; estimated October deficit ~₽48bn.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-12",
+        "title": "Russia's Sberbank doubles down on AI after drone attack on data centre",
+        "url": "https://www.reuters.com/business/finance/russias-sberbank-expects-roe-least-21-its-2027-2029-strategy-2026-11-12/",
+        "dimension": [
+          "structural_stress",
+          "elite_divergence",
+          "state_capacity_erosion"
+        ],
+        "qualification": "CEO German Gref reports sharp deterioration in corporate loan quality in H2 and expects worsening in 2027, a management assessment not independently audited. COUNTEREVIDENCE: Sberbank forecasts ≥21% return on equity and continued 50% dividends, positive 2027 growth; Oct attack reportedly caused no major banking disruption. His warning is not political defection.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-11",
+        "title": "Russia turns to giant plastic bags to store unexported grain as Black Sea trade stalls",
+        "url": "https://www.reuters.com/business/russia-turns-giant-plastic-bags-store-unexported-grain-black-sea-trade-stalls-2026-11-11/",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Reuters interviews IKAR, producers and agriculture officials: exports down around one-third since July; IKAR says up to 20m tonnes excess storage. COUNTEREVIDENCE: innovative silo-bag storage already holding ~10m tonnes (industry estimate), despite storage risks.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-07",
+        "title": "Putin expands temporary administration of Japan Tobacco assets in Russia",
+        "url": "https://www.reuters.com/world/asia-pacific/putin-expands-temporary-administration-japan-tobacco-assets-russia-2026-11-07/",
+        "dimension": [
+          "structural_stress",
+          "elite_divergence"
+        ],
+        "qualification": "Three more entities brought under Russian temporary asset management. Property-rights intervention, not evidence of Russian ruling-elite dissent; domestic manager says it intends to continue production."
+      },
+      {
+        "publisher": "Associated Press",
+        "date": "2026-11-07",
+        "title": "Japan protests Russian takeover of Japan Tobacco subsidiaries in Russia",
+        "url": "https://apnews.com/article/8a2af429f61b9616a3207a4ada72b6c2",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "Independent corroboration of Japanese protest over earlier takeover of four subsidiaries; prospective cost to Russia unknown."
+      },
+      {
+        "publisher": "Meduza",
+        "date": "2026-11-09",
+        "title": "Партия «Рассвет» Екатерины Дунцовой остановила регистрацию региональных отделений после того, как ее объявили «иноагентом»",
+        "url": "https://meduza.io/news/2026/11/09/partiya-rassvet-ekateriny-duntsovoy-ostanovila-registratsiyu-regionalnyh-otdeleniy-posle-togo-kak-ee-ob-yavili-inoagentom",
+        "dimension": [
+          "mobilized_dissent",
+          "coercive_securitization"
+        ],
+        "qualification": "Leader Duntsova says regional registration halted after Nov 6 foreign-agent designation; ~100 attended internal Zoom discussion. This is NOT demonstrated new street protest or scalable mobilized dissent."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-12",
+        "title": "Адвоката Марию Бонцлер, защищавшую политзаключенных, приговорили к 12 годам за госизмену",
+        "url": "https://ovd.info/express-news/2026/11/12/advokata-mariyu-boncler-zashchishchavshuyu-politzaklyuchennykh-prigovorili",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Kaliningrad court 12-year sentence reported by civil-society legal monitor. Prosecution's claims of intelligence sharing disputed by defense, not independently established; closed court proceedings."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-12",
+        "title": "«У меня есть мечта». Лев Шлосберг о добре и зле — в последнем слове на апелляции",
+        "url": "https://zona.media/article/2026/11/12/shlosberg",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Appellate court reportedly upheld 11-year-1-month sentence; opposition politician's allegations of procedural abuses are attributed to him, not adjudicated as proven."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-10",
+        "title": "The Urals human rights defender has been accused of treason over reports of prisoners’ rights violations",
+        "url": "https://ovd.info/en/express-news/2026/11/10/urals-human-rights-defender-has-been-accused-treason-over-reports-prisoners",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Aleksei Sokolov prosecution documented from indictment and Kommersant; charges for reporting prisoner abuses remain accusations denied by the accused. OVD English page is AI-translated. Nov 9 hearing postponed."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-12",
+        "title": "Верховный суд признал экстремистским украинское ненасильственное движение сопротивления российской оккупации «Желтая лента»",
+        "url": "https://zona.media/news/2026/11/12/yellow",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Supreme Court announced ban on Ukrainian nonviolent resistance movement in occupied areas. Court allegations of intelligence sponsorship not independently verified; NOT a demonstration of mass mobilization inside Russia."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-09",
+        "title": "Задержанного при рейде МВД в московском Китай‑городе арестовали на 13 суток",
+        "url": "https://zona.media/news/2026/11/09/arrest",
+        "dimension": [
+          "mobilized_dissent",
+          "coercive_securitization"
+        ],
+        "qualification": "13-day administrative arrest reported after Nov 7 youth-gathering police raid; estimates of 150–300 detained have not been independently verified. Not demonstrated political anti-regime protest."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-12",
+        "title": "Против главреда белгородского «Пепла» Никиты Парменова заочно возбудили второе уголовное дело — по статье для «иностранных агентов»",
+        "url": "https://zona.media/news/2026/11/12/pepel",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Outlet Pepel reports in-absentia criminal charges against journalist abroad; not evidence of domestic realized political protest."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-12",
+        "title": "UK sanctions Russia's Slavneft in latest move against oil producers",
+        "url": "https://www.reuters.com/business/energy/uk-sanctions-russias-slavneft-latest-move-against-oil-producers-2026-11-12/",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "UK sanctions announcement corroborated; future export/revenue effect is not yet measured. Do not count planned harm as realized loss."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-12",
+        "title": "Car bomb kills Russian soldier near St Petersburg in targeted assassination",
+        "url": "https://www.reuters.com/world/europe/car-bomb-kills-russian-soldier-near-st-petersburg-latest-targeted-assassination-2026-11-12/",
+        "dimension": [
+          "state_capacity_erosion",
+          "elite_rupture"
+        ],
+        "qualification": "Killed serviceman and official murder investigation reported; details of alleged perpetrator/motive/balloon-borne explosive are unverified claims. An assassination is NOT evidence of elite organized defection."
+      }
+    ],
+    "composite": {
+      "regime_stress": 4.466,
+      "rupture_potential": 3.27,
+      "stress_rupture_gap": 1.196,
+      "weekly_stress_delta": 0.022,
+      "weekly_rupture_delta": 0.018
+    },
+    "interpretation": "Economic-operational pressures intensified, but no new convincing evidence of their conversion into coordinated elite defection or sustained realized opposition. Changes to rupture potential are formulaic and not observed political conversion.",
+    "reliability": "Article-level HTTPS links and publication dates verified from reporting. Unnamed refinery industry sources, preliminary government statistics and contested judicial accusations identified as such. Rassvet organizational meetings and nonpolitical youth raid are not coded as mass dissent. Pre-October series remains publisher-level only, never fabricated."
   }
 };
