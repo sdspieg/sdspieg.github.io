@@ -379,5 +379,24 @@ window.REGIME_DATA=[
    "Mediazona",
    "Meduza"
   ]
+ ],
+ [
+  "2026-11-13",
+  2,
+  4.2,
+  4.2,
+  2.4,
+  4.9,
+  5,
+  5,
+  "Fresh reporting: regional fuel rationing, major refinery throughput disruption estimates, higher January–October budget deficit, weaker Sberbank corporate-credit quality and Black Sea grain storage bottlenecks; parallel repression and organizational constraints. Strong counterevidence from non-oil revenues, Sberbank earnings/dividends and adaptation. No organized elite rupture or new realized mass protest. 5.0 ceilings preserved.",
+  [
+   "Reuters",
+   "Interfax",
+   "Associated Press",
+   "Meduza",
+   "OVD-Info",
+   "Mediazona"
+  ]
  ]
 ];
