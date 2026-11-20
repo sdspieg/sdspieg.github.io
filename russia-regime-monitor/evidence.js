@@ -603,5 +603,173 @@ window.REGIME_EVIDENCE={
     },
     "interpretation": "Economic-operational pressures intensified, but no new convincing evidence of their conversion into coordinated elite defection or sustained realized opposition. Changes to rupture potential are formulaic and not observed political conversion.",
     "reliability": "Article-level HTTPS links and publication dates verified from reporting. Unnamed refinery industry sources, preliminary government statistics and contested judicial accusations identified as such. Rassvet organizational meetings and nonpolitical youth raid are not coded as mass dissent. Pre-October series remains publisher-level only, never fabricated."
+  },
+  "2026-11-20": {
+    "period": "2026-11-14/2026-11-20",
+    "provenance": "article_level_verified",
+    "narrative": "For the Friday-to-Friday reporting window 14–20 November 2026, refinery operational disruption intensified sharply according to two unnamed industry sources interviewed by Reuters: fifteen out of thirty-five major refineries are affected, up from nine a week earlier. Current daily oil-processing volumes were estimated near 400,000 tonnes, down from more than 700,000 tonnes at the end of October. The distinction between this POINT-IN-TIME decline of about 45% and the NOVEMBER-AVERAGE decline of 5–10% from September–October must be maintained. Financial Times reporting of record seaborne gasoline imports and a Sberbank interview projecting worsening loan quality substantiate heightened structural economic stress, while imported gasoline, restorative repairs, no systemic banking-crisis expectation, and Sberbank's positive 2027 GDP forecast demonstrate significant adaptation. A central bank adviser warned that rate rises are a possibility if inflation persists, but stressed the baseline remains easing; this is technical discussion, not elite revolt. On repression, the Duma passed only the first reading of a bill increasing fines for anti-war speech and unauthorized protest; a Mediazona investigation verified two cases (not 7,519 prosecutions) linked to historical solidarity donations. OVD-Info reported the temporary detention and fine of an activist of the unregistered Rassvet party and an alleged search of the elderly mother of a rights activist. On November 19, Mediazona reported prosecutors' request of eighteen years for former defense deputy Ruslan Tsalikov and detentions of two former regional legislators in Kursk; neither amounts to organized elite defection, and allegations remain contested. Wikimedia Foundation received a warning, not an official undesirable-organization listing. No new independent representative public opinion poll, senior ruling-coalition defection, or sustained realized mass opposition protest was verified. Structural-economic stress rises by 0.1 to the ceiling of 5.0; all other scores stay unchanged, including the existing 5.0 ceilings for coercion and state-capacity erosion. Any upward movement in the formula-derived Rupture Potential Index reflects only higher economic stress and not observed political conversion.",
+    "coding": {
+      "elite_rupture": "2.0 unchanged. No independently verified defection or organized rival governing coalition. A proposed prison sentence for Shoigu ally Tsalikov and detained former Kursk deputies are individual prosecutions; no demonstrated anti-Putin elite organization.",
+      "elite_divergence": "4.2 unchanged. Monetary-policy debate within CBR and Sberbank management warnings show technical disagreement and economic candor, not autonomous coordinated disobedience or elite break.",
+      "public_dissatisfaction": "4.2 unchanged. No fresh representative nationally comparable discontent survey observed during the period; negative individual experiences and fuel shortages cannot be converted automatically into national opinion data.",
+      "mobilized_dissent": "2.4 unchanged. A Rassvet activist was briefly detained and fined; donors to a 2023 opposition charity event are being scrutinized, but no newly verified sustained or large-scale realized anti-government street mobilization. Attempts, retrospective donations and punishments are not new mass action.",
+      "structural_stress": "4.9 → 5.0 (+0.1), ordinal scale ceiling. Reuters' industry sources report a NEW widening from nine to fifteen major disrupted refineries, with estimated current daily refinery throughput 45% below end-October. FT documents record gasoline imports and Sberbank predicts worsening nonperforming loans; CBR officials see elevated inflation. Distinguish current DAILY processing from monthly average (only 5–10% down vs Sep–Oct). Sources are estimates and forecasts; imported supply, ongoing bank profitability and conditional policy easing are meaningful counterevidence. The maximum ordinal rating is NOT a claim of economic collapse.",
+      "coercive_securitization": "5.0 CEILING unchanged. The Duma advanced a proposal to stiffen penalties for war-related expression, Mediazona documented new prosecution of donors, OVD-Info described arrests/searches, and prosecution warned Wikimedia. This is persistent coercive governance, not a justified 5.1. One legislative reading and accusations are not completed legal findings.",
+      "state_capacity_erosion": "5.0 CEILING unchanged. Acute oil refining disruptions stress physical state/economic infrastructure, but imports and emergency substitution, continuing bank operations and repairs demonstrate adaptive capacity. No higher score permitted; no evidence of comprehensive institutional shutdown."
+    },
+    "sources": [
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-16",
+        "title": "Russia's Sberbank predicts loan quality deterioration as economy faces systemic challenges",
+        "url": "https://www.reuters.com/business/finance/russias-sberbank-predicts-loan-quality-deterioration-economy-faces-systemic-2026-11-16/",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "First Deputy CEO forecasts worsening loan quality, not an audited realised bank collapse. COUNTEREVIDENCE: predicts no systemic banking crisis, 2027 GDP +1.4%, construction bad loans below 1%; management forecast.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-17",
+        "title": "Russian lawmakers look to boost penalties for war-related offences",
+        "url": "https://www.reuters.com/world/russian-lawmakers-look-boost-penalties-war-related-offences-2026-11-17/",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "First of three Duma readings only, not enacted law. Proposes higher fines for anti-war speech, unapproved rallies and designated-extremist material; OVD-Info totals quoted are cumulative, not newly prosecuted this week."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-18",
+        "title": "Drone attacks nearly halve Russia's November oil refining, sources say",
+        "url": "https://www.reuters.com/business/energy/drone-attacks-nearly-halve-russias-november-oil-refining-sources-say-2026-11-18/",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Two anonymous industry sources: 15/35 major refineries affected, up from 9 previous week; estimated point-in-time DAILY throughput from >700kt to about 400kt, a 45% decline. COUNTEREVIDENCE: November monthly AVERAGE >500kt/day, only 5–10% below Sep–Oct. Not audited national statistics.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Financial Times",
+        "date": "2026-11-19",
+        "title": "Russia imports record volumes of petrol as Ukraine strikes refineries",
+        "url": "https://www.ft.com/content/6ae074cc-bc09-4159-b59e-72d25ac2ac50",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Subscriber-only article; reports ~390kt seaborne gasoline imports in October plus Belarusian supplies. COUNTEREVIDENCE: imports, relaxed fuel standards and export controls helped stabilize domestic supplies. Figures sourced to trade monitoring/industry.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Interfax",
+        "date": "2026-11-19",
+        "title": "Central Bank of Russia may hike key rate amid no signs of slowdown in inflation; baseline scenario is to cut - CBR advisor",
+        "url": "https://interfax.com/newsroom/top-stories/119959/",
+        "dimension": [
+          "structural_stress",
+          "elite_divergence"
+        ],
+        "qualification": "On-record CBR adviser Tremasov: isolated suggestions of a rate hike, not a decision. COUNTEREVIDENCE: majority expects to pause and watch; baseline still includes rate reduction. Not evidence of ruling-elite schism.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-17",
+        "title": "Появились уголовные дела за донаты марафону в поддержку политических заключенных в 2023 году. Рублевые переводы на кошелек Максима Каца силовики назвали донатами ФБК",
+        "url": "https://zona.media/article/2026/11/17/dotanionalerts",
+        "dimension": [
+          "coercive_securitization",
+          "mobilized_dissent"
+        ],
+        "qualification": "Two confirmed donation-related prosecutions, preliminary checks in at least five regions. Potential 7,519 donors at risk are NOT 7,519 actual prosecutions. Investigators' claim that solidarity-marathon money was FBK funding is disputed."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-19",
+        "title": "The “Rassvet” activist was fined and released after being detained for seven hours at Vnukovo.",
+        "url": "https://ovd.info/en/express-news/2026/11/19/rassvet-activist-was-fined-and-released-after-being-detained-seven-hours",
+        "dimension": [
+          "coercive_securitization",
+          "mobilized_dissent"
+        ],
+        "qualification": "AI-translated report based on SOTAvision and politician Rumyantsev: detention and RUB 1,500 border-regime fine. No verified organized protest; motive of administrative charge not independently established."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-18",
+        "title": "The FSB conducted a search at the home of a 75-year-old mother of a human rights activist from Yelets, posing as firefighters.",
+        "url": "https://ovd.info/en/express-news/2026/11/18/fsb-conducted-search-home-75-year-old-mother-human-rights-activist-yelets",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "AI-translated, secondhand 7×7 and activist account: search and alleged pressure on his elderly mother; claimed FSB coercion and underlying treason accusation are not independently substantiated."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-19",
+        "title": "Обвинение запросило 18 лет колонии строгого режима экс‑замминистру оборону Руслану Цаликову по делу о взяточничестве и отмывании денег",
+        "url": "https://zona.media/news/2026/11/19/tsalikov",
+        "dimension": [
+          "elite_rupture",
+          "elite_divergence"
+        ],
+        "qualification": "Cites Ostorozhno Novosti: prosecutors REQUESTED 18 years for Shoigu associate, not a sentence. Bribery/laundering allegations unproven; purge does not demonstrate an organized competing elite coalition."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-19",
+        "title": "Курских экс‑депутатов задержали по делу о хищениях при строительстве оборонительных укреплений",
+        "url": "https://zona.media/news/2026/11/19/kursk",
+        "dimension": [
+          "elite_rupture",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Governor Khinshtein reported detention of two ex-regional deputies in fortifications case. Allegations unproven; localized investigation is not coordinated political rupture."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-19",
+        "title": "Генпрокуратура предупредила связанный с «Википедией» фонд о том, что в России его могут признать «нежелательной организацией»",
+        "url": "https://zona.media/news/2026/11/19/wikimedia",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Mediazona reporting on Interfax/TASS official warning to Wikimedia Foundation; NOT formal designation as an undesirable organization, destabilization claim is government's allegation."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-19",
+        "title": "У политолога Александра Кынева во время обыска в сентябре нашли 14 свертков с мефедроном",
+        "url": "https://zona.media/news/2026/11/19/kynev",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Mediazona courtroom observation: custody extended to Dec 24; seizure allegations are prosecutor/police claims, defendant disputes guilt. No independently verified political motive."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-18",
+        "title": "In Vladivostok, a major city in Russia’s Far East, a teenager has been fined in a criminal case over an ironic poem about Kadyrov’s men.",
+        "url": "https://ovd.info/en/express-news/2026/11/18/vladivostok-major-city-russias-far-east-teenager-has-been-fined-criminal",
+        "dimension": [
+          "coercive_securitization",
+          "public_dissatisfaction"
+        ],
+        "qualification": "AI-translated secondary account citing Radio Svoboda; fines and subsequent emigration reported. Alleged FSB abuse is firsthand testimony, and individual case is not representative polling."
+      }
+    ],
+    "composite": {
+      "regime_stress": 4.488,
+      "rupture_potential": 3.288,
+      "stress_rupture_gap": 1.2,
+      "weekly_stress_delta": 0.022,
+      "weekly_rupture_delta": 0.018
+    },
+    "interpretation": "Economic stress now hits the 5.0 ordinal maximum, not economic collapse. Rupture potential rises mechanically from its 18% economic-stress weight; NO observed political conversion: no coordinated elite rupture, mass anti-regime mobilization or independent political opinion shift.",
+    "reliability": "All linked HTTPS articles checked against available published sources. Refinery figures are ANONYMOUS INDUSTRY ESTIMATES; do not equate peak daily and whole-month declines. Corporate credit is a MANAGEMENT FORECAST; FT article is paywalled. OVD-Info English reports are AI translations/secondary accounts. A bill at first reading is not enacted; police/prosecutor accusations are not verified convictions. No equivalent verified contemporaneous national survey found. Historical pre-October observations have publisher-only metadata; citations not invented."
   }
 };
