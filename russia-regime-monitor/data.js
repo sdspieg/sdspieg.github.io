@@ -1,402 +1,420 @@
 window.REGIME_DATA=[
- [
-  "2026-06-05",
-  1.4,
-  2.6,
-  2.6,
-  1.4,
-  3,
-  3.3,
-  2.4,
-  "SPIEF exposed competing elite visions; slowdown and internet restrictions became politically salient.",
   [
-   "Reuters",
-   "Carnegie Endowment",
-   "NEST"
-  ]
- ],
- [
-  "2026-06-12",
-  1.4,
-  2.8,
-  2.7,
-  1.4,
-  3.2,
-  3.4,
-  2.6,
-  "Business criticism of rates grew louder; internet disruption and Crimea fuel problems became more visible.",
+    "2026-06-05",
+    1.4,
+    2.6,
+    2.6,
+    1.4,
+    3,
+    3.3,
+    2.4,
+    "SPIEF exposed competing elite visions; slowdown and internet restrictions became politically salient.",
+    [
+      "Reuters",
+      "Carnegie Endowment",
+      "NEST"
+    ]
+  ],
   [
-   "Reuters",
-   "Carnegie Endowment",
-   "Chatham House",
-   "NEST"
-  ]
- ],
- [
-  "2026-06-19",
-  1.4,
-  3,
-  2.9,
-  1.4,
-  3.3,
-  3.5,
-  2.8,
-  "Nabiullina succession chatter and widening war fatigue; Moscow refinery strikes weakened insulation.",
+    "2026-06-12",
+    1.4,
+    2.8,
+    2.7,
+    1.4,
+    3.2,
+    3.4,
+    2.6,
+    "Business criticism of rates grew louder; internet disruption and Crimea fuel problems became more visible.",
+    [
+      "Reuters",
+      "Carnegie Endowment",
+      "Chatham House",
+      "NEST"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "Carnegie Endowment",
-   "NEST"
-  ]
- ],
- [
-  "2026-06-26",
-  1.5,
-  3.1,
-  3,
-  1.5,
-  3.5,
-  3.6,
-  3.1,
-  "Fuel disruption, budget strain, and institutionalized FSB-civilian conflict over internet controls.",
+    "2026-06-19",
+    1.4,
+    3,
+    2.9,
+    1.4,
+    3.3,
+    3.5,
+    2.8,
+    "Nabiullina succession chatter and widening war fatigue; Moscow refinery strikes weakened insulation.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Carnegie Endowment",
+      "NEST"
+    ]
+  ],
   [
-   "Reuters",
-   "Associated Press",
-   "Carnegie Endowment",
-   "NEST",
-   "OSW"
-  ]
- ],
- [
-  "2026-07-03",
-  1.5,
-  3.1,
-  3.1,
-  1.5,
-  3.7,
-  3.7,
-  3.3,
-  "Fuel shortages became a domestic political vulnerability; repression increasingly functioned as routine governance.",
+    "2026-06-26",
+    1.5,
+    3.1,
+    3,
+    1.5,
+    3.5,
+    3.6,
+    3.1,
+    "Fuel disruption, budget strain, and institutionalized FSB-civilian conflict over internet controls.",
+    [
+      "Reuters",
+      "Associated Press",
+      "Carnegie Endowment",
+      "NEST",
+      "OSW"
+    ]
+  ],
   [
-   "Reuters",
-   "NEST"
-  ]
- ],
- [
-  "2026-07-10",
-  1.5,
-  3.2,
-  3.3,
-  1.5,
-  3.9,
-  3.7,
-  3.5,
-  "Fuel imports and export bans, falling approval, potential banking strain, and establishment criticism.",
+    "2026-07-03",
+    1.5,
+    3.1,
+    3.1,
+    1.5,
+    3.7,
+    3.7,
+    3.3,
+    "Fuel shortages became a domestic political vulnerability; repression increasingly functioned as routine governance.",
+    [
+      "Reuters",
+      "NEST"
+    ]
+  ],
   [
-   "Reuters",
-   "The Guardian",
-   "Levada Center"
-  ]
- ],
- [
-  "2026-07-17",
-  1.6,
-  3.4,
-  3.4,
-  1.6,
-  4,
-  3.8,
-  3.6,
-  "Business climate deteriorated sharply; billionaire asset hedging suggested exit rather than voice.",
+    "2026-07-10",
+    1.5,
+    3.2,
+    3.3,
+    1.5,
+    3.9,
+    3.7,
+    3.5,
+    "Fuel imports and export bans, falling approval, potential banking strain, and establishment criticism.",
+    [
+      "Reuters",
+      "The Guardian",
+      "Levada Center"
+    ]
+  ],
   [
-   "Financial Times",
-   "Reuters",
-   "Bank of Russia"
-  ]
- ],
- [
-  "2026-07-24",
-  1.8,
-  3.6,
-  3.4,
-  1.7,
-  4,
-  3.9,
-  3.7,
-  "Pressure widened around the Rotenberg network; fuel triage increasingly privileged center over periphery.",
+    "2026-07-17",
+    1.6,
+    3.4,
+    3.4,
+    1.6,
+    4,
+    3.8,
+    3.6,
+    "Business climate deteriorated sharply; billionaire asset hedging suggested exit rather than voice.",
+    [
+      "Financial Times",
+      "Reuters",
+      "Bank of Russia"
+    ]
+  ],
   [
-   "Carnegie Endowment",
-   "Reuters"
-  ]
- ],
- [
-  "2026-07-31",
-  1.8,
-  3.7,
-  3.5,
-  1.7,
-  4.1,
-  4,
-  3.8,
-  "Technocratic room narrowed; fuel emergency became semi-permanent; Telegram controls antagonized loyalists.",
+    "2026-07-24",
+    1.8,
+    3.6,
+    3.4,
+    1.7,
+    4,
+    3.9,
+    3.7,
+    "Pressure widened around the Rotenberg network; fuel triage increasingly privileged center over periphery.",
+    [
+      "Carnegie Endowment",
+      "Reuters"
+    ]
+  ],
   [
-   "Reuters",
-   "Carnegie Endowment"
-  ]
- ],
- [
-  "2026-08-07",
-  1.9,
-  3.9,
-  3.5,
-  1.7,
-  4.2,
-  4,
-  4,
-  "Russia imported refined fuel while exporting crude; strategic elite divergence became more salient.",
+    "2026-07-31",
+    1.8,
+    3.7,
+    3.5,
+    1.7,
+    4.1,
+    4,
+    3.8,
+    "Technocratic room narrowed; fuel emergency became semi-permanent; Telegram controls antagonized loyalists.",
+    [
+      "Reuters",
+      "Carnegie Endowment"
+    ]
+  ],
   [
-   "Reuters",
-   "Carnegie Endowment",
-   "Financial Times"
-  ]
- ],
- [
-  "2026-08-14",
-  2,
-  4,
-  3.6,
-  1.7,
-  4.2,
-  4.3,
-  4.1,
-  "FSB-Kiriyenko tension became more explicit; legal anti-war electoral outlets narrowed.",
+    "2026-08-07",
+    1.9,
+    3.9,
+    3.5,
+    1.7,
+    4.2,
+    4,
+    4,
+    "Russia imported refined fuel while exporting crude; strategic elite divergence became more salient.",
+    [
+      "Reuters",
+      "Carnegie Endowment",
+      "Financial Times"
+    ]
+  ],
   [
-   "Bloomberg",
-   "Reuters",
-   "Carnegie Endowment"
-  ]
- ],
- [
-  "2026-08-21",
-  2,
-  4,
-  3.8,
-  1.8,
-  4.3,
-  4.3,
-  4.2,
-  "Klepach firing and Levada anxiety data suggested stronger technocratic and societal stress.",
+    "2026-08-14",
+    2,
+    4,
+    3.6,
+    1.7,
+    4.2,
+    4.3,
+    4.1,
+    "FSB-Kiriyenko tension became more explicit; legal anti-war electoral outlets narrowed.",
+    [
+      "Bloomberg",
+      "Reuters",
+      "Carnegie Endowment"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "Levada Center",
-   "BOFIT"
-  ]
- ],
- [
-  "2026-08-28",
-  2,
-  4,
-  3.8,
-  2,
-  4.4,
-  4.4,
-  4.3,
-  "Asset-management decree increased elite insecurity; logistics and agricultural stresses broadened.",
+    "2026-08-21",
+    2,
+    4,
+    3.8,
+    1.8,
+    4.3,
+    4.3,
+    4.2,
+    "Klepach firing and Levada anxiety data suggested stronger technocratic and societal stress.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Levada Center",
+      "BOFIT"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "NEST",
-   "Carnegie Endowment"
-  ]
- ],
- [
-  "2026-09-04",
-  2,
-  4.1,
-  3.9,
-  2,
-  4.4,
-  4.5,
-  4.3,
-  "Titov warned against permanent war-economy mobilization; fiscal squeeze and conditional consent became clearer.",
+    "2026-08-28",
+    2,
+    4,
+    3.8,
+    2,
+    4.4,
+    4.4,
+    4.3,
+    "Asset-management decree increased elite insecurity; logistics and agricultural stresses broadened.",
+    [
+      "Reuters",
+      "Financial Times",
+      "NEST",
+      "Carnegie Endowment"
+    ]
+  ],
   [
-   "Reuters",
-   "Levada Center",
-   "NEST",
-   "Meduza"
-  ]
- ],
- [
-  "2026-09-11",
-  2,
-  4.1,
-  4.1,
-  2,
-  4.5,
-  4.5,
-  4.4,
-  "Public anxiety, mobilization fears, fuel disruption, election suppression, capital hedging and banking stress converged.",
+    "2026-09-04",
+    2,
+    4.1,
+    3.9,
+    2,
+    4.4,
+    4.5,
+    4.3,
+    "Titov warned against permanent war-economy mobilization; fiscal squeeze and conditional consent became clearer.",
+    [
+      "Reuters",
+      "Levada Center",
+      "NEST",
+      "Meduza"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "FOM",
-   "Bank of Russia"
-  ]
- ],
- [
-  "2026-09-18",
-  2,
-  4.1,
-  4.1,
-  2.1,
-  4.6,
-  4.5,
-  4.5,
-  "Refinery damage intensified; election became a diagnostic of administrative mobilization and limited opposition coordination.",
+    "2026-09-11",
+    2,
+    4.1,
+    4.1,
+    2,
+    4.5,
+    4.5,
+    4.4,
+    "Public anxiety, mobilization fears, fuel disruption, election suppression, capital hedging and banking stress converged.",
+    [
+      "Reuters",
+      "Financial Times",
+      "FOM",
+      "Bank of Russia"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "Carnegie Endowment"
-  ]
- ],
- [
-  "2026-09-25",
-  2,
-  4.1,
-  4.2,
-  2.2,
-  4.7,
-  4.6,
-  4.6,
-  "Post-election fraud allegations, small anti-fraud mobilization, worsening fiscal pressure and Moscow refinery shutdown.",
+    "2026-09-18",
+    2,
+    4.1,
+    4.1,
+    2.1,
+    4.6,
+    4.5,
+    4.5,
+    "Refinery damage intensified; election became a diagnostic of administrative mobilization and limited opposition coordination.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Carnegie Endowment"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "Meduza",
-   "Novaya Gazeta Europe",
-   "Important Stories"
-  ]
- ],
- [
-  "2026-10-02",
-  2,
-  4.2,
-  4.2,
-  2.3,
-  4.8,
-  4.7,
-  4.7,
-  "2027 budget shifts further toward war; private firms shoulder homeland defense; small post-election protest appeared.",
+    "2026-09-25",
+    2,
+    4.1,
+    4.2,
+    2.2,
+    4.7,
+    4.6,
+    4.6,
+    "Post-election fraud allegations, small anti-fraud mobilization, worsening fiscal pressure and Moscow refinery shutdown.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Meduza",
+      "Novaya Gazeta Europe",
+      "Important Stories"
+    ]
+  ],
   [
-   "Reuters",
-   "Financial Times",
-   "Carnegie Endowment",
-   "Levada Center"
-  ]
- ],
- [
-  "2026-10-09",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.8,
-  4.8,
-  4.8,
-  "October 4 approved Communist Party rally enabled limited anti-war/electoral mobilization and roughly 65 reported detentions; Yabloko prosecutions continued; Yandex Sasovo data-center operations disrupted.",
+    "2026-10-02",
+    2,
+    4.2,
+    4.2,
+    2.3,
+    4.8,
+    4.7,
+    4.7,
+    "2027 budget shifts further toward war; private firms shoulder homeland defense; small post-election protest appeared.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Carnegie Endowment",
+      "Levada Center"
+    ]
+  ],
   [
-   "Meduza",
-   "OVD-Info",
-   "Reuters"
-  ]
- ],
- [
-  "2026-10-16",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.8,
-  4.9,
-  4.9,
-  "Election-fraud rally permits denied in at least 15 cities; new Yandex and Sberbank data-center attacks. Expected October oil-and-gas tax receipts and diesel export resumption offset part of the structural pressure.",
+    "2026-10-09",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.8,
+    4.8,
+    4.8,
+    "October 4 approved Communist Party rally enabled limited anti-war/electoral mobilization and roughly 65 reported detentions; Yabloko prosecutions continued; Yandex Sasovo data-center operations disrupted.",
+    [
+      "Meduza",
+      "OVD-Info",
+      "Reuters"
+    ]
+  ],
   [
-   "OVD-Info",
-   "Reuters"
-  ]
- ],
- [
-  "2026-10-23",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.8,
-  4.9,
-  5,
-  "Cascading damage to data-center infrastructure affected banking, retail, digital and AI services; Yandex restored many cloud services. The Central Bank held its 14% key rate and raised inflation forecast. No convincing evidence of elite rupture.",
+    "2026-10-16",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.8,
+    4.9,
+    4.9,
+    "Election-fraud rally permits denied in at least 15 cities; new Yandex and Sberbank data-center attacks. Expected October oil-and-gas tax receipts and diesel export resumption offset part of the structural pressure.",
+    [
+      "OVD-Info",
+      "Reuters"
+    ]
+  ],
   [
-   "Associated Press",
-   "Reuters"
-  ]
- ],
- [
-  "2026-10-30",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.8,
-  5,
-  5,
-  "A minor was charged under terrorism provisions for election leaflets, a peace-campaigning candidate was fined, and further harsh penalties targeted donations. Ozon provisioned ₽30.1bn in drone-related losses; the 2027–29 fiscal package advanced, while refiners and diesel exports recovered. Facility strikes continued; no demonstrated elite break.",
+    "2026-10-23",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.8,
+    4.9,
+    5,
+    "Cascading damage to data-center infrastructure affected banking, retail, digital and AI services; Yandex restored many cloud services. The Central Bank held its 14% key rate and raised inflation forecast. No convincing evidence of elite rupture.",
+    [
+      "Associated Press",
+      "Reuters"
+    ]
+  ],
   [
-   "OVD-Info",
-   "Interfax",
-   "Associated Press",
-   "Reuters",
-   "The Washington Post",
-   "Critical Threats",
-   "Novaya Gazeta Europe",
-   "RFE/RL"
-  ]
- ],
- [
-  "2026-11-06",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.8,
-  5,
-  5,
-  "Further in-absentia punishments for independent-media and opposition figures, internet-censorship fines, and renewed refinery attacks; Sovcomflot stake sale planned and JTI assets placed under temporary management. October oil/gas receipts rose about 9% y/y and Q3 GDP grew 1%; no documented elite rupture or broad realized protest. Two ceiling indicators remain at 5.0.",
+    "2026-10-30",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.8,
+    5,
+    5,
+    "A minor was charged under terrorism provisions for election leaflets, a peace-campaigning candidate was fined, and further harsh penalties targeted donations. Ozon provisioned ₽30.1bn in drone-related losses; the 2027–29 fiscal package advanced, while refiners and diesel exports recovered. Facility strikes continued; no demonstrated elite break.",
+    [
+      "OVD-Info",
+      "Interfax",
+      "Associated Press",
+      "Reuters",
+      "The Washington Post",
+      "Critical Threats",
+      "Novaya Gazeta Europe",
+      "RFE/RL"
+    ]
+  ],
   [
-   "Reuters",
-   "Kommersant",
-   "OVD-Info",
-   "Mediazona",
-   "Meduza"
-  ]
- ],
- [
-  "2026-11-13",
-  2,
-  4.2,
-  4.2,
-  2.4,
-  4.9,
-  5,
-  5,
-  "Fresh reporting: regional fuel rationing, major refinery throughput disruption estimates, higher January–October budget deficit, weaker Sberbank corporate-credit quality and Black Sea grain storage bottlenecks; parallel repression and organizational constraints. Strong counterevidence from non-oil revenues, Sberbank earnings/dividends and adaptation. No organized elite rupture or new realized mass protest. 5.0 ceilings preserved.",
+    "2026-11-06",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.8,
+    5,
+    5,
+    "Further in-absentia punishments for independent-media and opposition figures, internet-censorship fines, and renewed refinery attacks; Sovcomflot stake sale planned and JTI assets placed under temporary management. October oil/gas receipts rose about 9% y/y and Q3 GDP grew 1%; no documented elite rupture or broad realized protest. Two ceiling indicators remain at 5.0.",
+    [
+      "Reuters",
+      "Kommersant",
+      "OVD-Info",
+      "Mediazona",
+      "Meduza"
+    ]
+  ],
   [
-   "Reuters",
-   "Interfax",
-   "Associated Press",
-   "Meduza",
-   "OVD-Info",
-   "Mediazona"
+    "2026-11-13",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    4.9,
+    5,
+    5,
+    "Fresh reporting: regional fuel rationing, major refinery throughput disruption estimates, higher January–October budget deficit, weaker Sberbank corporate-credit quality and Black Sea grain storage bottlenecks; parallel repression and organizational constraints. Strong counterevidence from non-oil revenues, Sberbank earnings/dividends and adaptation. No organized elite rupture or new realized mass protest. 5.0 ceilings preserved.",
+    [
+      "Reuters",
+      "Interfax",
+      "Associated Press",
+      "Meduza",
+      "OVD-Info",
+      "Mediazona"
+    ]
+  ],
+  [
+    "2026-11-20",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    5,
+    5,
+    5,
+    "A sharp additional refinery throughput shock (15/35 major refineries disrupted; two-source industry estimate), record emergency gasoline imports and deteriorating bank loan outlook. Repression persists, including anti-war penalty bill first reading and two historical donor cases, but no organized elite rupture or verified realized mass opposition. Strong adaptability counterevidence. Structural stress reaches 5.0 ceiling; all others unchanged.",
+    [
+      "Reuters",
+      "Financial Times",
+      "Interfax",
+      "Mediazona",
+      "OVD-Info"
+    ]
   ]
- ]
 ];
