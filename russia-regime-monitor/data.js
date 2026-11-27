@@ -416,5 +416,26 @@ window.REGIME_DATA=[
       "Mediazona",
       "OVD-Info"
     ]
+  ],
+  [
+    "2026-11-27",
+    2,
+    4.2,
+    4.2,
+    2.4,
+    5,
+    5,
+    5,
+    "Duma approved sharply higher planned military spending and tax increases; October bank profits fell 24.7%, but corporate lending accelerated and household deposits grew. Levada consumer sentiment remained stable. New senior military remand, removal of an advisory critic, fines and proposed information restrictions do not demonstrate organized elite rupture or realized mass protest. Winter utility risks and refinery damage persist; all scores unchanged, including three 5.0 ceilings.",
+    [
+      "Associated Press",
+      "Interfax",
+      "Bank of Russia",
+      "Frank Media",
+      "Levada Center",
+      "Mediazona",
+      "OVD-Info",
+      "Reuters"
+    ]
   ]
 ];
