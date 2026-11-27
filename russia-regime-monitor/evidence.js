@@ -771,5 +771,187 @@ window.REGIME_EVIDENCE={
     },
     "interpretation": "Economic stress now hits the 5.0 ordinal maximum, not economic collapse. Rupture potential rises mechanically from its 18% economic-stress weight; NO observed political conversion: no coordinated elite rupture, mass anti-regime mobilization or independent political opinion shift.",
     "reliability": "All linked HTTPS articles checked against available published sources. Refinery figures are ANONYMOUS INDUSTRY ESTIMATES; do not equate peak daily and whole-month declines. Corporate credit is a MANAGEMENT FORECAST; FT article is paywalled. OVD-Info English reports are AI translations/secondary accounts. A bill at first reading is not enacted; police/prosecutor accusations are not verified convictions. No equivalent verified contemporaneous national survey found. Historical pre-October observations have publisher-only metadata; citations not invented."
+  },
+  "2026-11-27": {
+    "period": "2026-11-21/2026-11-27",
+    "provenance": "article_level",
+    "narrative": "Reporting interval after the previous 20 November morning cutoff through 27 November 2026 morning; archive uses 21–27 November date labels. On 24 November the State Duma approved the 2027–29 budget at third reading, planning 17.15 trillion rubles in national defense spending in 2027 versus 12.93 trillion in 2026, a roughly one-third increase. The planned 2027 deficit is 5.44 trillion rubles (2.2% of projected GDP); 396 deputies voted for the bill and 37 abstained. Tax increases and military prioritization reinforce fiscal pressure, while legislative coordination and domestic financing capacity assessments temper predictions of immediate breakdown. On 25 November the Bank of Russia reported 311 billion rubles of October banking profits, down 24.7% month on month; Interfax reports provisions rose 32% to 221 billion. Corporate lending including bonds increased 2.4% in October, versus 0.7% in September, and household deposits rose 0.6%. These figures show strain and ongoing intermediation, not systemic banking failure. Levada published October consumer-sentiment results on 25 November: its headline index remained stable at 99; 31% reported deteriorating household finances and 56% no change. Household expectations weakened but the aggregate did not. These are older fieldwork and not a direct measure of Putin approval. A court reportedly remanded senior military officer Yuri Grekhov on 25 November in a reported bribery case; no factional motive is established. Putin removed filmmaker Alexander Sokurov from the presidential human-rights council, narrowing an established avenue for criticism. OVD-Info reported four fines against a Yabloko activist for earlier anti-war expression; Mediazona and OVD-Info reported draft federal restrictions on publishing information about consequences of strikes. The bills are proposals, not enacted laws. Reuters reported a deputy prime minister's warning of winter utility risks and preparations, and company-reported damage at an already-idled refinery. EU sanctions announced this week are proposals, not realized losses. No new organized senior elite defection or sustained realized anti-regime mobilization was verified. All scores remain unchanged, with three indicators at their hard 5.0 ceiling; maximum ordinal stress does not mean total collapse.",
+    "coding": {
+      "elite_rupture": "2.0 unchanged. Military court remand of a senior officer and removal of an advisory council critic are not coordinated defections. The budget's broad parliamentary passage is evidence of continued formal coordination, not proof of private preferences.",
+      "elite_divergence": "4.2 unchanged. The Sokurov removal narrows tolerated criticism; his earlier views were already public and he is not a new ruling-coalition dissident. Grekhov's reported bribery case does not establish factional motive.",
+      "public_dissatisfaction": "4.2 unchanged. Newly published Levada October fieldwork shows stable aggregate consumer sentiment (99), weaker household expectations and mixed household experience. Neither a comparable direct political approval shift nor a sustained broad improvement is established. Survey lag and authoritarian response bias matter.",
+      "mobilized_dissent": "2.4 unchanged. Yabloko activist's fines document individual expression and punishment, not new collective action. No sustained realized mass opposition mobilization verified in reviewed sources; absence of reporting is not proof of absence.",
+      "structural_stress": "5.0 ceiling unchanged. Duma approved higher planned military expenditure and taxation; bank profits fell 24.7% monthly with provisioning up 32%. Positive banking profits, faster corporate lending and stable consumer sentiment temper the deterioration. Budget is a plan, not an actual outturn; no clear broad reversal warrants a lower score.",
+      "coercive_securitization": "5.0 ceiling unchanged. New fines, exclusion of a critic and proposals for federal criminal penalties reinforce coercion. Proposed bills are not enacted law. The scale does not permit 5.1.",
+      "state_capacity_erosion": "5.0 ceiling unchanged. New reported refinery damage and official warnings about winter utilities signal exposure, but the refinery was already shut and the warning concerns future risks. Banking continuity, preparations and formal budget coordination demonstrate residual capacity; no new national systemic shutdown established."
+    },
+    "sources": [
+      {
+        "publisher": "Associated Press",
+        "date": "2026-11-24",
+        "title": "Russia backs tax rises as 2027 budget sees military spending soar",
+        "url": "https://www.washingtonpost.com/business/2026/11/24/russia-2027-budget-economy-tax-hikes-ukraine-war/1f22aec6-e822-11f1-8db0-6f1e3c389e7c_story.html",
+        "dimension": [
+          "structural_stress",
+          "elite_divergence",
+          "elite_rupture"
+        ],
+        "qualification": "AP syndicated article verified in full text. Duma third reading, 396 votes in favor and 37 abstentions; planned defense allocation 17.15tn rubles vs 12.93tn in 2026. Not enacted at this stage. Parliamentary coordination and analyst Chris Weafer's October assessment of financing capacity are counterevidence; the forecast is not a guarantee.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Interfax",
+        "date": "2026-11-24",
+        "title": "Госдума приняла закон о бюджете РФ на 2027-2029 годы",
+        "url": "https://www.interfax.ru/business/1131003",
+        "dimension": [
+          "structural_stress",
+          "elite_rupture"
+        ],
+        "qualification": "Third-reading budget figures: planned 2027 deficit 5.44tn rubles (2.2% GDP); projections, not realized outcomes. Passage demonstrates legislative coordination, not necessarily genuine elite unanimity.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Bank of Russia",
+        "date": "2026-11-25",
+        "title": "В октябре корпоративное кредитование значительно ускорилось, а ипотека замедлилась",
+        "url": "https://www.cbr.ru/press/event/?id=33011",
+        "dimension": [
+          "structural_stress",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Primary regulator release. October banking profits 311bn rubles, down about one-quarter monthly; corporate lending including bonds +2.4% after +0.7%; household deposits +0.6%. Positive profits and lending contradict systemic collapse. Official aggregate data may mask individual distress.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Interfax",
+        "date": "2026-11-25",
+        "title": "В октябре чистая прибыль российских банков снизилась к сентябрю на 25% м/м",
+        "url": "https://www.interfax.ru/business/1131381",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "Reports CBR sector review: provisioning +32% to 221bn rubles, with 128bn for corporate loans; foreign-exchange and subsidiary dividend income also fell. Same underlying source as CBR, not independent statistical replication."
+      },
+      {
+        "publisher": "Frank Media",
+        "date": "2026-11-25",
+        "title": "Банки в октябре сократили прибыль почти на 25%, до 311 млрд рублей",
+        "url": "https://frankmedia.ru/318097",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "Specialist banking outlet reports the same regulator review; corroborates reading but is not an independent dataset."
+      },
+      {
+        "publisher": "Levada Center",
+        "date": "2026-11-25",
+        "title": "Индекс потребительских настроений (ИПН) в конце октября 2026 года",
+        "url": "https://www.levada.ru/2026/11/25/indeks-potrebitelskih-nastroenij-ipn-v-kontse-oktyabrya-2026-goda/",
+        "dimension": [
+          "public_dissatisfaction",
+          "structural_stress"
+        ],
+        "qualification": "New publication, older fieldwork 21–30 October, 1,601 in-home interviews. Consumer index 99, unchanged; 31% worse household finances, 13% better, 56% unchanged. Household expectations weakened, but aggregate index stabilized. Economic sentiment is not regime approval; authoritarian response bias and survey lag apply.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-26",
+        "title": "Заместителя главкома ВКС Юрия Грехова отправили в СИЗО по делу о взяточничестве",
+        "url": "https://zona.media/news/2026/11/26/grekhov",
+        "dimension": [
+          "elite_rupture",
+          "elite_divergence"
+        ],
+        "qualification": "Reported military court remand decision on 25 November; bribery accusation attributed to Kommersant and RBC sources. Not a conviction, and no evidence of organized political opposition."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-24",
+        "title": "Путин исключил из СПЧ режиссера Александра Сокурова, критиковавшего цензуру и закон об «иноагентах»",
+        "url": "https://ovd.info/express-news/2026/11/24/putin-isklyuchil-iz-spch-rezhissera-aleksandra-sokurova-kritikovavshego",
+        "dimension": [
+          "elite_divergence",
+          "coercive_securitization"
+        ],
+        "qualification": "Rights monitor cites Meduza and presidential decree. Removal of a long-standing critic from an advisory body is exclusion of dissent, not new coordinated ruling-elite resistance."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-25",
+        "title": "Активисту «Яблока» за день назначили четыре штрафа за высказывания о Путине и бессмысленности войны",
+        "url": "https://ovd.info/express-news/2026/11/25/aktivistu-yabloka-za-den-naznachili-chetyre-shtrafa-za-vyskazyvaniya-o",
+        "dimension": [
+          "coercive_securitization",
+          "mobilized_dissent",
+          "public_dissatisfaction"
+        ],
+        "qualification": "Four fines totaling 120,000 rubles, reported via activist's account to Mediazona; speech mostly from earlier months. A prior rally notification is not a realized rally; single case cannot establish national sentiment."
+      },
+      {
+        "publisher": "OVD-Info",
+        "date": "2026-11-26",
+        "title": "Сенаторы предложили ввести уголовную ответственность за публикации о последствиях ударов дронов",
+        "url": "https://ovd.info/express-news/2026/11/26/senatory-predlozhili-vvesti-ugolovnuyu-otvetstvennost-za-publikacii-o",
+        "dimension": [
+          "coercive_securitization",
+          "state_capacity_erosion"
+        ],
+        "qualification": "Three draft bills introduced, not enacted. Proposed restrictions and penalties for reporting conflict-related impacts could worsen observation bias."
+      },
+      {
+        "publisher": "Mediazona",
+        "date": "2026-11-26",
+        "title": "Сенаторы предложили ввести наказание до 5 лет колонии за публикацию последствий диверсий и атак беспилотников",
+        "url": "https://zona.media/news/2026/11/26/do_5_let",
+        "dimension": [
+          "coercive_securitization"
+        ],
+        "qualification": "Confirms draft legislation; maximum five-year penalty under aggravated conditions, not an existing general federal offense. Same legislative event as OVD-Info."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-25",
+        "title": "Russian government official warns of Ukrainian drone attacks on utility infrastructure this winter",
+        "url": "https://www.reuters.com/world/russian-government-official-warns-ukrainian-drone-attacks-utility-infrastructure-2026-11-25/",
+        "dimension": [
+          "state_capacity_erosion",
+          "structural_stress"
+        ],
+        "qualification": "Deputy PM Khusnullin's public warning describes prospective winter risks and budget constraints, alongside preparations. Not evidence of an already realized nationwide outage.",
+        "counterevidence": true
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-26",
+        "title": "Russian oil refinery in Krasnodar region on fire after drone attack",
+        "url": "https://www.reuters.com/business/energy/russian-oil-refinery-krasnodar-region-fire-after-drone-attack-2026-11-26/",
+        "dimension": [
+          "state_capacity_erosion",
+          "structural_stress"
+        ],
+        "qualification": "Company reported new damage at a facility already shut for maintenance. No additional realized national throughput loss quantified; earlier 45% point-in-time estimate is not new."
+      },
+      {
+        "publisher": "Reuters",
+        "date": "2026-11-23",
+        "title": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package",
+        "url": "https://www.reuters.com/business/finance/eu-commission-proposes-22nd-sanctions-package-russia-2026-11-23/",
+        "dimension": [
+          "structural_stress"
+        ],
+        "qualification": "Proposed EU package targets financial networks among other measures. Requires unanimous approval; not yet realized economic damage."
+      }
+    ],
+    "composite": {
+      "regime_stress": 4.488,
+      "rupture_potential": 3.288,
+      "stress_rupture_gap": 1.2,
+      "weekly_stress_delta": 0,
+      "weekly_rupture_delta": 0
+    },
+    "interpretation": "No newly demonstrated political conversion. Formal legislative coordination, continued bank intermediation and stable aggregate consumer sentiment are meaningful counterevidence against immediate collapse. Three maximum scores expose scale saturation, not certainty of failure.",
+    "reliability": "URLs and titles grounded in retrieved article records; AP article verified through its syndicated Washington Post version dated 24 November. Reuters reports attributed official/company claims, not independently audited damage. CBR official aggregate figures, Interfax and Frank Media share underlying data. Levada fieldwork predates this reporting period. Draft laws and proposed sanctions are not enacted; remand is not conviction. No article-level citations fabricated for pre-October legacy observations."
   }
 };
